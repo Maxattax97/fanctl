@@ -12,7 +12,7 @@
 ### END INIT INFO
 
 PROG="fanctl"
-PROG_PATH="/home/pi/bin"
+PROG_PATH="/usr/bin"
 PROG_ARGS=""
 PID_PATH="/var/run"
 

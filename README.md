@@ -7,7 +7,11 @@ A simple fan controller that checks for CPU temperature bounds and enables/disab
 Requires WiringPi.
 
 ```
+# Build the executable binary
 make
+
+# Install the system service
+make install
 ```
 
 ## Usage
@@ -15,7 +19,3 @@ make
 ```
 fanctl --help
 ```
-
-## System Service
-
-Copy `fanctl.sh` to `/etc/init.d`. Minor tweaks may be required (such as the path).

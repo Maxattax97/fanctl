@@ -1,0 +1,9 @@
+[Unit]
+Description = Enables the Raspberry Pi's thermal controlled CPU fan.
+After = graphical.target
+
+[Service]
+ExecStart = /usr/bin/fanctl
+
+[Install]
+WantedBy = multi-user.target
